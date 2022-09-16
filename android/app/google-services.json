@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857131450044",
+    "project_id": "fir-flutter-codetsa",
+    "storage_bucket": "fir-flutter-codetsa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857131450044:android:1a0ccde1a2c791b0cbdab9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firestore_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857131450044-2mpf1lvvqbu3bdbcdb2809or8pnbifkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8XahwGqd93IdY66d7_-m2k2vYQQ3URgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857131450044-2mpf1lvvqbu3bdbcdb2809or8pnbifkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

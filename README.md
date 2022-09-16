@@ -2,15 +2,16 @@
 
 A new Flutter project.
 
-## Getting Started
+### Dapatkan kode sampel
+Kloning repositori GitHub dari baris perintah:
+git clone https://github.com/flutter/codelabs.git flutter-codelabs Struktur direktori di bawah flutter-codelabs/firebase-get-to-know-flutter
+lib/main.dart : File ini berisi titik masuk utama dan widget aplikasi.
+lib/src/widgets.dart : File ini berisi beberapa widget untuk membantu menstandardisasi gaya aplikasi. Ini digunakan untuk membuat layar aplikasi pemula.
+lib/src/authentication.dart : File ini berisi implementasi sebagian dari FirebaseUI Auth dengan seperangkat widget untuk menciptakan pengalaman pengguna login untuk otentikasi berbasis email Firebase. Widget untuk alur autentikasi ini belum digunakan di aplikasi pemula, tetapi Anda akan segera menghubungkannya.
 
-This project is a starting point for a Flutter application.
+### Buat dan siapkan proyek Firebase
+Aktifkan Cloud Firestore: Di bagian Build Firebase console, klik Cloud Firestore .
+Klik Buat basis data .
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Konfigurasi Firebase
