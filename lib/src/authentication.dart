@@ -166,7 +166,9 @@ class _EmailFormState extends State<EmailForm> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Header('Sign in with email'),
+        const Header(
+          heading: "What we'll be doing",
+        ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Form(
@@ -246,7 +248,9 @@ class _RegisterFormState extends State<RegisterForm> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Header('Create account'),
+        const Header(
+          heading: 'Sign in with email',
+        ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Form(
@@ -362,7 +366,9 @@ class _PasswordFormState extends State<PasswordForm> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Header('Sign in'),
+        const Header(
+          heading: 'Sign in',
+        ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Form(

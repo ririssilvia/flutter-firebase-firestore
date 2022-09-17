@@ -29,6 +29,13 @@
             {
               "client_id": "857131450044-2mpf1lvvqbu3bdbcdb2809or8pnbifkn.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "857131450044-1gsr3iapkas6of0cvfkpt8otimh7tb2c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterFirestoreFirebase"
+              }
             }
           ]
         }
