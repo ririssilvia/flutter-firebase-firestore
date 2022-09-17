@@ -7,12 +7,12 @@ Kloning repositori GitHub
 ```
 git clone https://github.com/flutter/codelabs.git 
 ```
-![Screenshoot firebase](images/01.png)
+![Screenshoot firebase](images/1.png)
 ### Buat dan siapkan proyek Firebase
 Aktifkan Cloud Firestore: Di bagian Build Firebase console, klik Cloud Firestore .
 Klik Buat basis data .
-![Screenshoot firebase](images/02.png)
-![Screenshoot firebase](images/03.png)
+![Screenshoot firebase](images/2.png)
+![Screenshoot firebase](images/3.png)
 
 
 ### Konfigurasi Firebase
@@ -36,9 +36,9 @@ flutterfire configure
 
 ### Tambahkan login pengguna (RSVP)
 - Berikut adalah awal dari alur otentikasi, di mana pengguna dapat menekan tombol RSVP, untuk memulai formulir email.
-![Screenshoot firebase](images/04.png)
+![Screenshoot firebase](images/4.png)
 - Setelah memasukkan email, sistem mengkonfirmasi jika pengguna sudah terdaftar, dalam hal ini pengguna dimintai kata sandi, atau jika pengguna tidak terdaftar, maka mereka pergi melalui formulir pendaftaran.
-![Screenshoot firebase](images/09.png)
+![Screenshoot firebase](images/9.png)
 ![Screenshoot firebase](images/10.png)
 - ketika berhasil login
 ![Screenshoot firebase](images/11.png)
