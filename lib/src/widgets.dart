@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget {
-  const Header({Key? key, required this.heading}) : super(key: key);
+  const Header(this.heading, {super.key});
   final String heading;
 
   @override
@@ -15,10 +15,9 @@ class Header extends StatelessWidget {
 }
 
 class Paragraph extends StatelessWidget {
-final String content;
-const Paragraph({Key? key, required this.content}) : super(key: key);
-
-@override
+  const Paragraph(this.content, {super.key});
+  final String content;
+  @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         child: Text(
